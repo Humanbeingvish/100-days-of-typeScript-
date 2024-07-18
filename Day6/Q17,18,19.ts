@@ -49,5 +49,19 @@ console.log(favLocations);
 favLocations.sort();
 console.log(favLocations);
 
+favLocations.sort().reverse();
+console.log(favLocations)
+
+favLocations.reverse();
+console.log(favLocations);
+
+favLocations.reverse();
+console.log(favLocations);
+
+favLocations.sort();
+console.log(favLocations);
+
+favLocations.reverse();
+console.log(favLocations);
 // pending ................
 
