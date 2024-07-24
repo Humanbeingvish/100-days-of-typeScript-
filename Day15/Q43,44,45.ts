@@ -8,4 +8,13 @@ makeSandwich("avocado", "sprouts", "mustard", "mayo");
 
 //Q45....
 
-function Cars(...){}
+function makecar(
+    manufacture:string,
+    modeel:string,
+    ...options:[string,any][]
+){
+    let car ={manufacture,modeel}
+    options.forEach(([key,value])=>{car[key]= value});
+    return car;
+}
+
