@@ -16,3 +16,5 @@ function call(){
         console.log('this is timer functions')
     },5000);
 }
+
+console.log('')
